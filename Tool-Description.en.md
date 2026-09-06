@@ -4,6 +4,8 @@
 
 Hola Apps is a collection of pure-local productivity tools for Windows, covering clipboard, capture, files, system, and network — 27 tools in total. All data is stored only on your own device and never uploaded. Install and go, open and use.
 
+**Official website**: https://www.apphola.com/ · **Membership**: https://www.apphola.com/zh-CN/pricing
+
 **Download**: get the latest installer from the **Releases** section (https://github.com/apphola-com/apphola/releases ) of this repository (only production builds are published, no source code).
 
 **Screenshots**: see [`screenshots/`](./screenshots/) (`home.png` home / `panel.png` tool panel / `member.png` membership unlock) and [`README.en.md`](./README.en.md).

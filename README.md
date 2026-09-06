@@ -8,6 +8,8 @@ English: [`README.en.md`](./README.en.md)
 
 霍拉应用是一款为 Windows 打造的纯本地效率工具合集，聚焦剪贴板、采集、文件、系统与网络五大场景。命令面板与快捷键驱动，托盘常驻、随叫随到，安装即用、打开即用，**离线可用**。
 
+**官网**：[https://www.apphola.com/](https://www.apphola.com/)
+
 **本仓库仅发布生产打包文件**（见 [Releases](https://github.com/apphola-com/apphola/releases)），不含源码。
 
 ---
@@ -92,6 +94,7 @@ English: [`README.en.md`](./README.en.md)
 
 - 免费用户可使用全部基础工具。
 - 标记为 **★ 会员专属** 的工具/能力，需**登录账号、处于会员有效期**后解锁。
+- 获取会员：前往官网订阅页 [https://www.apphola.com/zh-CN/pricing](https://www.apphola.com/zh-CN/pricing) 开通。
 - 会员状态本地校验、离线可用；账号与会员数据同样仅保存在本机。
 
 ---

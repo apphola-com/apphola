@@ -8,6 +8,8 @@
 
 Hola Apps is a collection of pure-local productivity tools for Windows, focused on five areas: input, capture, files, system, and network. It is command-palette and hotkey driven, tray-resident and always ready, install-and-go, open-and-use, and works **fully offline**.
 
+**Official website**: [https://www.apphola.com/](https://www.apphola.com/)
+
 **This repository publishes production builds only** (see [Releases](https://github.com/apphola-com/apphola/releases)) — no source code.
 
 ---
@@ -92,6 +94,7 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 
 - Free users get all core tools.
 - Tools marked **★ membership-exclusive** unlock after you **sign in and have an active membership**.
+- Get a membership: visit the official subscription page [https://www.apphola.com/zh-CN/pricing](https://www.apphola.com/zh-CN/pricing).
 - Membership status is verified locally and works offline; account/membership data stays on your own machine.
 
 ---
