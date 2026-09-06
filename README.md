@@ -103,32 +103,6 @@ English: [`README.en.md`](./README.en.md)
 
 ---
 
-## 🛠 技术栈
-
-- **前端**：React 19 + TypeScript + Vite + Bootstrap
-- **后端**：Rust + Tauri 2 + SQLite（本地存储）
-- **国际化**：13 种界面语言
-
----
-
-## 📦 发布说明
-
-本仓库**仅发布生产打包后的文件**，发布流程：
-
-1. 构建生产产物：
-   ```bash
-   yarn install
-   yarn tauri build
-   ```
-2. 产物位于：
-   - MSI：`src-tauri/target/release/bundle/msi/*.msi`
-   - NSIS：`src-tauri/target/release/bundle/nsis/*.exe`
-3. 在 [Releases](https://github.com/apphola-com/apphola/releases) 新建 Tag 版本，上传上述安装包，并填写 Release Notes（可引用 [`工具描述.md`](./工具描述.md)）。
-
-> 如需将本 README 作为 GitHub 仓库主页，请将其复制到仓库根目录。
-
----
-
 ## 支持与反馈
 
 如有问题或建议，请在 [Issues](https://github.com/apphola-com/apphola/issues) 中反馈。

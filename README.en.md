@@ -103,32 +103,6 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 
 ---
 
-## 🛠 Tech Stack
-
-- **Frontend**: React 19 + TypeScript + Vite + Bootstrap
-- **Backend**: Rust + Tauri 2 + SQLite (local storage)
-- **i18n**: 13 UI languages
-
----
-
-## 📦 Release Notes
-
-This repository **publishes production builds only**. Release flow:
-
-1. Build the production artifacts:
-   ```bash
-   yarn install
-   yarn tauri build
-   ```
-2. Artifacts:
-   - MSI: `src-tauri/target/release/bundle/msi/*.msi`
-   - NSIS: `src-tauri/target/release/bundle/nsis/*.exe`
-3. Create a new tagged release in [Releases](https://github.com/apphola-com/apphola/releases), upload the installers, and write the release notes (you may use [`Tool-Description.en.md`](./Tool-Description.en.md)).
-
-> To use this README as the GitHub repository homepage, copy it to the repository root.
-
----
-
 ## Support
 
 Submit issues or suggestions via [Issues](https://github.com/apphola-com/apphola/issues).
