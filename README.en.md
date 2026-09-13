@@ -1,12 +1,12 @@
 # Hola Apps (霍拉应用)
 
-> Local-first Windows productivity toolbox · **27 tools** · all data stays on your device, never uploaded
+> Local-first Windows productivity toolbox · **29 tools** (12 free + 17 membership) · runs offline by default, data stays on your machine
 
 中文版本：[`README.md`](./README.md)
 
 ## About
 
-Hola Apps is a collection of pure-local productivity tools for Windows, focused on five areas: input, capture, files, system, and network. It is command-palette and hotkey driven, tray-resident and always ready, install-and-go, open-and-use, and works **fully offline**.
+Hola Apps is a local-first collection of productivity tools for Windows, covering clipboard, capture, files, system, network and translation. It is hotkey and global-search driven, tray-resident and always ready, install-and-go, open-and-use — and **the vast majority of tools work fully offline**.
 
 **Official website**: [https://www.apphola.com/](https://www.apphola.com/)
 
@@ -19,7 +19,7 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 > Screenshots live in the [`screenshots/`](./screenshots/) folder. Place the images with the following filenames there (replace with real screenshots before publishing; images are illustrative).
 
 ![Home · Tools overview](screenshots/home.png)
-<p align="center"><em>Home · overview of 27 tools</em></p>
+<p align="center"><em>Home · overview of 29 tools</em></p>
 
 ![Sample tool panel](screenshots/panel.png)
 <p align="center"><em>An example tool operation panel</em></p>
@@ -31,44 +31,64 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 
 ## ✨ Features
 
-27 tools across five categories (★ = membership-exclusive, unlocked after signing in):
+29 tools across six categories (★ = membership-exclusive, unlocked after signing in):
 
 ### Input
-- Clipboard history
-- Code snippets
-- Sticky notes
-- ★ Text toolbox
-- ★ Regex tester
-- ★ Text diff
+- Super Clipboard
+- Text Snippets (code snippets)
+- Sticky Notes
+- ★ Text Toolbox
+- ★ Regex Tester
+- ★ Text / File Diff
 
 ### Capture
-- Screenshot & annotate
-- Quick look
-- Color picker
-- ★ OCR text recognition
+- Screenshot & Sticker
+- Quick Look (images / PDF / code / archives)
+- Screen Color Picker
+- ★ Offline OCR
 
 ### Window
-- Global hotkeys
-- System monitor
-- System report
-- Spotlight launcher
-- ★ Pomodoro
+- Hotkey Manager
+- System Monitor
+- ★ System Report
+- ★ Mouse Spotlight / Highlight
+- ★ Pomodoro / Focus Timer
 
 ### File
-- Hash check
-- ★ Batch rename
-- ★ Image toolbox
-- ★ Duplicate finder
-- ★ Privacy cleaner
-- ★ Automation
-- ★ File encryption
-- ★ Backup
+- File Hash Check
+- ★ Batch Rename
+- ★ Image Compress / Convert
+- ★ Duplicate File Finder
+- ★ Privacy Cleaner / File Shredder
+- ★ Scheduled Command Runner
+- ★ File Encrypt / Decrypt (AES-256)
+- ★ Scheduled Backup / Sync
 
 ### Network
-- Scheduler
-- ★ LAN transfer
-- ★ QR code generator
-- ★ Port scanner
+- Scheduled Tasks
+- ★ LAN Transfer (never leaves your network)
+- ★ QR Code Generator
+- ★ Network Port Scan
+
+### AI & Translation
+- AI Translate (requires an AI model config)
+- Machine Translation (requires an Alibaba Cloud AccessKey; 214 languages)
+
+---
+
+## ⚙️ Global Configuration Center
+
+Fill it in once and every tool shares it — no need to re-enter keys per tool:
+
+- **Alibaba Cloud OSS**: Endpoint, Bucket, Region, AccessKey, etc.
+- **Alibaba Cloud AccessKey**: AccessKey ID + AccessKey Secret (used by Machine Translation)
+- **AI Model**: Base URL, API Key, model (**OpenAI-compatible**)
+
+---
+
+## 🌐 Languages
+
+The interface ships in **13 languages**: 简体中文, English, 日本語, 한국어, Deutsch, Français, Español, Português, Русский, العربية, हिन्दी, বাংলা, اردو.
 
 ---
 
@@ -92,7 +112,7 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 
 ## 🔐 Membership
 
-- Free users get all core tools.
+- Free users get **12 core tools**.
 - Tools marked **★ membership-exclusive** unlock after you **sign in and have an active membership**.
 - Get a membership: visit the official subscription page [https://www.apphola.com/zh-CN/pricing](https://www.apphola.com/zh-CN/pricing).
 - Membership status is verified locally and works offline; account/membership data stays on your own machine.
@@ -101,8 +121,12 @@ Hola Apps is a collection of pure-local productivity tools for Windows, focused 
 
 ## 🔒 Privacy & Local-first
 
-- All tools run locally; core features work **without an internet connection**.
-- Your data (clipboard, notes, settings, etc.) is stored only on your device and is **never uploaded**.
+- **Local-first**: the vast majority of tools run fully offline (clipboard, screenshot, color picker, OCR, hash check, file encryption, batch rename, image tools, privacy cleaner, backup, and more). Data is kept on your machine by default.
+- **Only three features require a network connection**, and each uses **your own account and keys** — nothing is sent if you don't configure them:
+  - Membership sign-in and subscription
+  - AI Translate (OpenAI-compatible endpoint)
+  - Machine Translation (Alibaba Cloud Machine Translation)
+- Outside of those, the app never uploads your data automatically.
 
 ---
 

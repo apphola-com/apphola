@@ -1,8 +1,8 @@
 # Hola Apps
 
-**Local-first Windows productivity toolbox · 27 tools · 100% offline-capable · data stays on your device**
+**Local-first Windows productivity toolbox · 29 tools (12 free + 17 membership) · offline by default · data stays on your device**
 
-Hola Apps is a collection of pure-local productivity tools for Windows, covering clipboard, capture, files, system, and network — 27 tools in total. All data is stored only on your own device and never uploaded. Install and go, open and use.
+Hola Apps is a local-first collection of productivity tools for Windows, covering clipboard, capture, files, system, network and translation — 29 tools in total. The vast majority of features work fully offline and your data stays on your machine by default. Only three features require a network connection — membership sign-in, AI Translate and Machine Translation — and each uses your own account and keys.
 
 **Official website**: https://www.apphola.com/ · **Membership**: https://www.apphola.com/zh-CN/pricing
 
@@ -12,15 +12,19 @@ Hola Apps is a collection of pure-local productivity tools for Windows, covering
 
 **Highlights**
 
-- **27 everyday tools**, driven by keyboard shortcuts / a command palette, tray-resident and always ready.
-- **100% local execution**: works offline, all data stays on your machine — privacy first.
-- **Free + membership**: core tools are free; membership-exclusive tools unlock when you sign in.
+- **29 everyday tools**, driven by global search / keyboard shortcuts, tray-resident and always ready.
+- **Local-first, offline by default**: clipboard, screenshot, color picker, OCR, encryption, batch rename, image tools, cleaner, backup and more all run on your machine.
+- **Network access you control**: only membership sign-in, AI Translate and Machine Translation need the network, using your own keys — nothing is sent if you don't configure them.
+- **Free + membership**: 12 core tools free; 17 membership-exclusive tools unlock when you sign in.
+- **Global Configuration Center**: fill in OSS / Alibaba Cloud AccessKey / AI model (OpenAI-compatible) once and every tool shares it.
+- **13 interface languages**: 简体中文, English, 日本語, 한국어, Deutsch, Français, Español, Português, Русский, العربية, हिन्दी, বাংলা, اردو.
 - **Lightweight & modern**: built on Rust + WebView2, fast startup and low footprint.
 
 **Tools (sample)**
 
-- Clipboard history · Screenshot & annotate · Batch rename · OCR · Image toolbox
-- File encryption · Backup · Duplicate finder · Privacy cleaner · LAN transfer
-- Scheduler · Pomodoro · System monitor · Spotlight launcher · Port scanner, and more
+- Super Clipboard · Screenshot & Sticker · Batch Rename · Offline OCR · Image Compress / Convert
+- File Encrypt / Decrypt · Scheduled Backup · Duplicate File Finder · Privacy Cleaner · LAN Transfer
+- Scheduled Tasks · Pomodoro · System Monitor · Mouse Spotlight / Highlight · Network Port Scan
+- AI Translate · Machine Translation (214 languages), and more
 
 For the full feature list and membership details, see [`README.en.md`](./README.en.md).
